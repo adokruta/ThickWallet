@@ -1,0 +1,54 @@
+body
+{
+	background-image: url(img/brushed_alu_dark.png);
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.container
+{
+	margin-top: auto;
+	margin-bottom: auto; 
+}
+
+.main-container
+{
+	background-color: mintcream; 
+	border: 1px solid black;
+	border-radius: 15px; 
+	padding: 20px;
+}
+
+.brand-logo
+{
+	font-family: 'Sonsie One', cursive;
+	font-weight: bold; 
+	letter-spacing: 1px;
+}
+
+.quote
+{
+	border-radius: 15px; 
+}
+
+.form-floating
+{
+	width: 100%;
+	margin: auto; 
+}
+
+.welcome
+{
+	text-align: justify;
+}
+
+.hed
+{
+	padding: 5px; 
+	border-radius: 15px; 
+}
+
+.input-group
+{
+	border: 1px solid darkslategray;
+	border-radius: 3px; 
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+	<head>
+	
+	<meta charset="utf-8"/>
+	<meta http-equiv="X-Ua-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+ 
+	<title>Sign Up</title>
+	<meta name="description" content="Manage your budget in a simply way"/>	
+	<meta name="keywords" content="budget app, budget management, personal finances, money">
+	<link rel="shortcut icon" type="image/x-icon" href="img/icons8-wallet-64kopia.png" />
+
+	<link rel="stylesheet" href="style.css" type="text/css" /> 
+	<link rel="stylesheet" href="css/bootstrap.css" /> 
+	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Sonsie+One&display=swap" rel="stylesheet">
+	
+	</head>
+
+	<body>
+
+		<div class="container">
+			<div class="row mt-3">
+				<div class="main-container px-4 py-2 col-md-8 offset-md-2 my-5 ">
+		
+					<h1 class="my-1 text-center brand-logo "> <img class="wallet-logo mb-3 img-fluid" src="img/icons8-wallet-64.png" alt="Logo Thick wallet" width="60" height="50" >Thick wallet </h1>
+					
+					<div class="row">	
+				
+						<div class="welcome-message vertical-center col-md-12 col-lg-6 mb-3 py-3 px-3">
+								<img class="quote  img-fluid" src="img/quote.png" alt="Quote"  >
+						</div>
+					
+						<form  class="welcome-message py-2 col-md-12 col-lg-6 ml-1" method="post" action="/signup/create" >
+							
+							<h2 class="h4 mb-3 fw-normal text-center">Create an account</h2>
+							
+							<div class="form-floating mb-1">
+								<input type="text" class="form-control" id="text" placeholder="Username">
+								<label for="floatingInput">Username</label>
+							</div>
+						
+							<small id="errorname"></small>	
+						
+							<span class="error"></span>
+								
+							<div class="form-floating mb-1">
+								<input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+								<label for="floatingInput">Email address</label>
+							</div>
+						
+							<small id="erroremail"></small>
+						
+							<span class="error"></span>
+						
+							<div class="form-floating">
+								<input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+								<label for="floatingPassword">Password</label>
+							</div>
+						
+							<small id="errorpassword"></small>
+						
+							<span class="error"></span>
+						
+							<div class="g-recaptcha mt-3" data-sitekey="6Lf1d-8UAAAAAM2IXxFnwi4DIyI6qBdpsa_TPCjA"></div>	
+						
+							<small class="text-danger"></small>
+		
+							<button class="w-100 btn-lg btn btn-success mb-2" type="submit">Sign in</button>
+							Already have an account?    <a href="XXX">Log in!</a>
+						</form>
+
+					</div>
+					
+				</div>
+			</div>
+		</div>
+
+		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+		<script src="js/bootstrap.js"></script>
+	</body>
+</html>
